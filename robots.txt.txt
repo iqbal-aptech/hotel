@@ -1,0 +1,11 @@
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Block access to certain sensitive or non-public files/directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /test/
+
+# Specify the location of the XML sitemap
+Sitemap: https://iqbal-aptech.github.io/hotel/sitemap.xml
